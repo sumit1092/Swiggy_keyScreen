@@ -54,6 +54,15 @@ The application allows users to browse dining restaurants, apply filters, explor
 * Desktop optimized experience
 * Cross-browser compatibility
 
+
+## Live Demo
+
+Add your deployment URL here.
+
+```text
+https://swiggy-key-screen.vercel.app/
+```
+
 ## Project Structure
 
 ```text
@@ -124,24 +133,8 @@ npm run build
 npm run start
 ```
 
-## Live Demo
-
-Add your deployment URL here.
-
-```text
-https://your-vercel-url.vercel.app
-```
-
-## GitHub Repository
-
-Add your repository URL here.
-
-```text
-https://github.com/your-username/swiggy-dineout-clone
-```
-
 ## Author
 
 Sumit Nandkar
 
-Frontend Developer
+Software Developer

@@ -42,6 +42,5 @@ It is realistic to complete within 24 hours while still showcasing frontend craf
 
 - Reusable typed components reduce duplication.
 - `next/image` improves loading behavior for visual-heavy cards.
-- Axios service fallback data keeps the UI available if the recipe API fails.
 - Static data separation makes future API integration straightforward.
 - Responsive utility classes ensure cross-device consistency.

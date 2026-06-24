@@ -103,9 +103,8 @@ src
 
 ##Images
 <p align="center">
-  <img width="50" height="50" alt="Screenshot 2026-06-24 at 8 07 22 PM" src="https://github.com/user-attachments/assets/89284a58-e83e-454f-93c2-4ec26f2f1885" />
+<img width="1440" height="858" alt="Screenshot 2026-06-24 at 8 06 37 PM" src="https://github.com/user-attachments/assets/fea9e2c8-8a83-4563-8c18-0e830b01ca8d" />
   <img width="50" height="50" alt="Screenshot 2026-06-24 at 8 07 22 PM" src="https://github.com/user-attachments/assets/89540606-a303-467c-9ab6-57a9e7d6be80" />
-
   <img width="50" height="50" alt="Screenshot 2026-06-24 at 6 54 31 PM" src="https://github.com/user-attachments/assets/094339b6-3d4b-45d2-93b5-4eadd2bcb982" />
   <img width="50" height="50" alt="Screenshot 2026-06-24 at 6 55 09 PM" src="https://github.com/user-attachments/assets/16368dff-7067-4eb3-97cc-bc50f0e7b9bb" />
 </p>

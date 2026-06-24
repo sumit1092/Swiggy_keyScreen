@@ -48,8 +48,8 @@ export default async function RestaurantPage({ params }: RestaurantPageProps) {
         <section className="pb-6">
           <h2 className="text-2xl font-black text-slate-900">Chef picks from the kitchen</h2>
           <div className="mt-4 grid gap-4 md:grid-cols-4">
-            {dishes.map((dish) => (
-              <article className="overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-slate-200" key={dish.id}>
+            {dishes.map((dish, index) => (
+              <article className="overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-slate-200" key={`${dish.id}-${index}`}>
                 <div className="relative h-36 bg-slate-100">
                   <Image
                     src={dish.image}

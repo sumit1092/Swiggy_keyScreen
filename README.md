@@ -1,38 +1,147 @@
 # Swiggy Dineout Clone
 
-This project recreates the Swiggy Dineout discovery experience with Next.js, TypeScript, Tailwind CSS, and Axios.
+A responsive frontend recreation of the Swiggy Dineout experience built using Next.js, TypeScript, and Tailwind CSS.
 
-## Stack
+## Overview
 
-- Next.js App Router with the `src/app` directory
-- TypeScript for typed restaurants, offers, categories, and dishes
-- Tailwind CSS v4 for responsive styling
-- Axios for the recipe API configured through `.env`
-- `next/image` for Swiggy and recipe imagery
+This project recreates the core Swiggy Dineout user experience with a focus on modern frontend development practices, responsive design, reusable component architecture, accessibility, and maintainability.
+
+The application allows users to browse dining restaurants, apply filters, explore curated collections, and navigate to restaurant detail pages.
+
+## Tech Stack
+
+* Next.js (App Router)
+* TypeScript
+* Tailwind CSS
+* React
+
+## Features
+
+### Home Page
+
+* Responsive Swiggy-inspired header
+* Search bar UI
+* Hero banner section
+* Restaurant listing grid
+* Dining collections section
+* Responsive footer
+
+### Restaurant Listing
+
+* Restaurant cards with ratings and dining information
+* Responsive grid layout
+* Reusable card components
+
+### Filters
+
+* Filter restaurants by categories
+* Dynamic filtering without page reload
+* Responsive filter bar
+
+### Restaurant Details Page
+
+* Dynamic restaurant detail page
+* Restaurant information section
+* Gallery section
+* Offers section
+* Reviews section
+* Smooth navigation from restaurant cards
+
+### Responsive Design
+
+* Mobile-first approach
+* Tablet optimized layouts
+* Desktop optimized experience
+* Cross-browser compatibility
 
 ## Project Structure
 
-- `src/app/` - app routes, root layout, global styles, and restaurant detail route
-- `src/components/` - grouped UI sections such as layout, search, filters, banners, categories, restaurants, skeletons, and primitives
-- `src/data/` - static Swiggy-inspired restaurant, offer, and category content
-- `src/services/` - Axios API calls for dishes
-- `src/types/` - shared TypeScript contracts
-- `src/hooks/` - client-side search and filter state
-- `src/utils/` - formatting and rating helpers
-
-## Environment
-
-Create `.env` in the project root:
-
-```bash
-RECIPES_API_URL=https://dummyjson.com/recipes?utm_source=chatgpt.com
+```text
+src
+├── app
+├── components
+│   ├── banners
+│   ├── discover
+│   ├── filters
+│   ├── layout
+│   ├── restaurant
+│   ├── search
+│   ├── ui
+│   └── icons
+├── data
+├── services
+├── types
+├── utils
+└── public
 ```
 
-## Run Locally
+## Design Goals
+
+* Pixel-accurate recreation of the Swiggy Dineout experience
+* Clean and maintainable codebase
+* Reusable component architecture
+* Accessibility-focused implementation
+* Responsive layouts across devices
+* Scalable folder structure
+
+## Improvements Made
+
+* Modular component architecture
+* Fully responsive layouts for mobile, tablet, and desktop
+* Type-safe implementation using TypeScript
+* Reusable UI components
+* Improved maintainability through centralized constants and data structures
+
+##Images
+<p align="center">
+  <img width="50" height="50" alt="Screenshot 2026-06-24 at 6 54 31 PM" src="https://github.com/user-attachments/assets/094339b6-3d4b-45d2-93b5-4eadd2bcb982" />
+  <img width="1440" height="860" alt="Screenshot 2026-06-24 at 6 55 09 PM" src="https://github.com/user-attachments/assets/16368dff-7067-4eb3-97cc-bc50f0e7b9bb" />
+</p>
+
+## Getting Started
+
+### Install Dependencies
 
 ```bash
 npm install
+```
+
+### Run Development Server
+
+```bash
 npm run dev
 ```
 
-Then open `http://localhost:3000`.
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Start Production Server
+
+```bash
+npm run start
+```
+
+## Live Demo
+
+Add your deployment URL here.
+
+```text
+https://your-vercel-url.vercel.app
+```
+
+## GitHub Repository
+
+Add your repository URL here.
+
+```text
+https://github.com/your-username/swiggy-dineout-clone
+```
+
+## Author
+
+Sumit Nandkar
+
+Frontend Developer

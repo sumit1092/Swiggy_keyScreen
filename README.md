@@ -95,7 +95,7 @@ src
 ##Images
 <p align="center">
   <img width="50" height="50" alt="Screenshot 2026-06-24 at 6 54 31 PM" src="https://github.com/user-attachments/assets/094339b6-3d4b-45d2-93b5-4eadd2bcb982" />
-  <img width="1440" height="860" alt="Screenshot 2026-06-24 at 6 55 09 PM" src="https://github.com/user-attachments/assets/16368dff-7067-4eb3-97cc-bc50f0e7b9bb" />
+  <img width="50" height="50" alt="Screenshot 2026-06-24 at 6 55 09 PM" src="https://github.com/user-attachments/assets/16368dff-7067-4eb3-97cc-bc50f0e7b9bb" />
 </p>
 
 ## Getting Started

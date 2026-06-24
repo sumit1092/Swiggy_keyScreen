@@ -80,3 +80,41 @@ export const discoverSections: DiscoverSectionData[] = [
     ],
   },
 ];
+
+export const companyLinks = [
+  "About Us",
+  "Swiggy Corporate",
+  "Careers",
+  "Team",
+  "Swiggy One",
+  "Swiggy Instamart",
+  "Swiggy Dineout",
+];
+
+export const contactLinks = [
+  "Help & Support",
+  "Partner with us",
+  "Ride with us",
+];
+
+export const legalLinks = [
+  "Terms & Conditions",
+  "Cookie Policy",
+  "Privacy Policy",
+  "Investor Relations",
+];
+
+export const cities = [
+  "Bangalore",
+  "Gurgaon",
+  "Hyderabad",
+  "Delhi",
+  "Mumbai",
+  "Pune",
+];
+
+export const lifeAtSwiggy = [
+  "Explore with Swiggy",
+  "Swiggy News",
+  "Snackables",
+];

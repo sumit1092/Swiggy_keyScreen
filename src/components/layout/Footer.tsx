@@ -5,44 +5,7 @@ import swiggy from "../../../public/Swiggy-logo.png"
 import app_store from "../../../public/app_store.png"
 import play_store from "../../../public/play_store.png"
 import { APP_STORE_URL, PLAY_STORE_URL } from "@/utils/constants";
-
-const companyLinks = [
-  "About Us",
-  "Swiggy Corporate",
-  "Careers",
-  "Team",
-  "Swiggy One",
-  "Swiggy Instamart",
-  "Swiggy Dineout",
-];
-
-const contactLinks = [
-  "Help & Support",
-  "Partner with us",
-  "Ride with us",
-];
-
-const legalLinks = [
-  "Terms & Conditions",
-  "Cookie Policy",
-  "Privacy Policy",
-  "Investor Relations",
-];
-
-const cities = [
-  "Bangalore",
-  "Gurgaon",
-  "Hyderabad",
-  "Delhi",
-  "Mumbai",
-  "Pune",
-];
-
-const lifeAtSwiggy = [
-  "Explore with Swiggy",
-  "Swiggy News",
-  "Snackables",
-];
+import { companyLinks, contactLinks, legalLinks, cities, lifeAtSwiggy } from "@/utils/constants";
 
 export function Footer() {
   return (
